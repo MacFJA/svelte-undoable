@@ -1,0 +1,47 @@
+{
+  "name": "@macfja/svelte-undoable",
+  "version": "1.0.0",
+  "description": "Memento design pattern in Svelte",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "doc": "esdoc",
+    "lint": "eslint src/",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macfja/svelte-undoable.git"
+  },
+  "keywords": [
+    "undo",
+    "redo",
+    "store",
+    "svelte",
+    "sveltejs",
+    "memento"
+  ],
+  "author": "MacFJA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macfja/svelte-undoable/issues"
+  },
+  "homepage": "https://github.com/macfja/svelte-undoable#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "esdoc": "^1.1.0",
+    "esdoc-importpath-plugin": "^1.0.2",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-import": "^2.22.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "svelte": "^3.0.0"
+  }
+}
