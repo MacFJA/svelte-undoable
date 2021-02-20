@@ -30,7 +30,7 @@ name.redo()
 
 ## Example
 
-```sveltehtml
+```html
 <script>
 import { undoable, undo, redo, reset, canUndo, canRedo } from "@macfja/svelte-undoable"
 import { derived } from "svelte/store"

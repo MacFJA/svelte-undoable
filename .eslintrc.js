@@ -3,13 +3,18 @@ module.exports = {
         "browser": true,
         "es6": true
     },
-    "extends": ["eslint:recommended", "plugin:import/errors"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:import/errors",
+        "plugin:@typescript-eslint/recommended"
+    ],
     "parserOptions": {
         "ecmaVersion": 2019,
         "sourceType": "module"
     },
     plugins: [
-        "import"
+        "import",
+        "@typescript-eslint"
     ],
     "rules": {
         "indent": [

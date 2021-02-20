@@ -33,6 +33,7 @@
 Check your code by running the command:
 ```sh
 npm run lint
+npm run test
 ```
 The command will output any information worth knowing. No error should be left.
 
